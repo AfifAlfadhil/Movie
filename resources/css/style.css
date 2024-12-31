@@ -1,0 +1,78 @@
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.container h2 {
+    margin: 0 0 10px;
+}
+
+.container p {
+    color: #6b7280;
+    margin: 0 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f3f4f6;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+    color: #4b5563;
+    font-weight: bold;
+}
+
+td {
+    color: #374151;
+}
+
+.role-admin {
+    color: #2563eb;
+}
+
+.role-owner {
+    color: #047857;
+}
+
+.role-member {
+    color: #6b7280;
+}
+
+.edit {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.edit:hover {
+    text-decoration: underline;
+}
+
+.add-user {
+    display: inline-block;
+    background-color: #6366f1;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    float: right;
+}
+
+.add-user:hover {
+    background-color: #4f46e5;
+}
